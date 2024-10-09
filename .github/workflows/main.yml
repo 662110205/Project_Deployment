@@ -32,8 +32,8 @@ jobs:
         output=$(node dist/test1.js)
         exist_code=$output
 
-        if [ $exit_code -e 1 ]; then
+        if [ $exit_code -en 0 ]; then
         echo "Error: The Node.js script failed with exit code $exit_code"
-        exit 0
+        exit 1
         fi
       
