@@ -17,7 +17,7 @@ jobs:
     
     - name: Run test
       run: |
-        output=$(node dist/test.js)
+        output=$(node Project_Deployment/dist/test.js)
         exist_code=$output
 
         if [ $exit_code -ne 0 ]; then
