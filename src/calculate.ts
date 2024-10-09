@@ -8,7 +8,7 @@ function multiple(a:number,b:number):number{
     return a*b
 }
 function plus(a:number,b:number):number{
-    return a+b;
+    return a+b; 
 }
 
 export const cal = {minus, power, multiple, plus}
