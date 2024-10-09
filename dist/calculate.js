@@ -11,6 +11,6 @@ function multiple(a, b) {
     return a * b;
 }
 function plus(a, b) {
-    return a + b; 
+    return a + b;
 }
 exports.cal = { minus, power, multiple, plus };
