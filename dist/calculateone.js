@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule1", { value: true });
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.minus = minus;
 
 function minus(a, b) {
