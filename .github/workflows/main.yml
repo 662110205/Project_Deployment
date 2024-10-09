@@ -36,4 +36,13 @@ jobs:
         echo "Error: The Node.js script failed with exit code $exit_code"
         exit 1
         fi
-      
+    - name: Run Test 2
+      run: |
+        output=$(node dist/test2.js)
+        exit_code=$output
+
+        if [ $exit_code -ne 0 ]; then
+        echo "Error: The Node.js script failed with exit code $exit_code"
+        exit 1
+        fi
+

@@ -10,4 +10,7 @@ function power(a, b) {
 function multiple(a, b) {
     return a * b;
 }
-exports.cal = { minus, power, multiple };
+function plus(a, b) {
+    return a + b;
+}
+exports.cal = { minus, power, multiple, plus };
