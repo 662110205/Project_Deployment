@@ -10,10 +10,9 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "662110183 / 662110201 / 662110205",
   "dependencies": {
-    "express": "^4.21.1",
-    "project_deployment": "file:"
+    "express": "^4.21.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
