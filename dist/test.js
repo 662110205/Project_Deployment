@@ -12,7 +12,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const calculate_1 = require("./calculate");
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     if (calculate_1.cal.minus(3, 1) === 1) {
-        console.log(0);
     }
     else {
         console.log(1);
