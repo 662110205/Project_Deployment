@@ -10,5 +10,5 @@ function power(a, b) {
     return Math.pow(a, b);
 }
 function multiple(a, b) {
-    return a / b;
+    return a * b;
 }
