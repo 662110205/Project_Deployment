@@ -1,6 +1,6 @@
-import { multiple,minus } from "./calculate";
+import { cal } from "./calculate";
 
-if(minus(multiple(5,6),10)===20){
+if(cal.minus(cal.multiple(5,6),10)===20){
     console.log(0)
 }else{
     console.log(1)

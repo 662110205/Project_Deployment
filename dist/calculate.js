@@ -1,10 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.minus = minus;
-exports.power = power;
-exports.multiple = multiple;
+exports.cal = void 0;
 function minus(a, b) {
-    return a + b;
+    return a - b;
 }
 function power(a, b) {
     return Math.pow(a, b);
@@ -12,3 +10,4 @@ function power(a, b) {
 function multiple(a, b) {
     return a * b;
 }
+exports.cal = { minus, power, multiple };
